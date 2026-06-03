@@ -7,7 +7,7 @@ int main()
 	ones=x%10;
 	tens=x/10;
 	if(tens==ones)
-	printf("Failure");
-	else
 	printf("Success");
+	else
+	printf("Failure");
 }
